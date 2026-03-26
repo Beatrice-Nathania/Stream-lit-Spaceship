@@ -1,0 +1,23 @@
+artifact_path: file:C:/BetrisN/Kuliah/Sems 4/Model Deployment/ASG 3/Code/mlruns/2/models/m-951f80dff536414bab83178b8a026219/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-951f80dff536414bab83178b8a026219
+model_size_bytes: 3943
+model_uuid: m-951f80dff536414bab83178b8a026219
+prompts: null
+run_id: 608962ce43024de987a03fa35913d6a3
+utc_time_created: '2026-03-26 08:13:42.819657'
